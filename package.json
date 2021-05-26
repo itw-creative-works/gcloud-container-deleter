@@ -1,0 +1,16 @@
+{
+  "name": "gcloud-container-deleter",
+  "version": "1.0.0",
+  "description": "Delete GCloud Registry Containers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "example_1": "npm start -- --project='itw-creative-works'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^16.2.0"
+  }
+}
