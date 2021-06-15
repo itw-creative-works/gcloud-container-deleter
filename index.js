@@ -1,6 +1,11 @@
 const argv = require('yargs').argv;
 const exec = require('child_process').exec;
 
+
+if (argv.help || argv.h) {
+  return console.log(`npm start -- --project='project-id'`);
+}
+
 if (!argv.project) {
   return console.error("Please provide a project argument like: npm start -- --project='my-project'");
 }
