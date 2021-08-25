@@ -13,7 +13,7 @@ exec(parentCommand, function (error, stdout, stderr) {
   folders.shift();
   folders.pop();
 
-  // console.log('folders', folders);
+  console.log('Deleting folders...', folders);
 
   folders.forEach((folderPath, i) => {
     let subfolder = folderPath.split('/')
